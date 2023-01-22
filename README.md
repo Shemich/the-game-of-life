@@ -1,15 +1,12 @@
 # The Game of Life
+This project is a visualization of "The Game of Life". Only character (ASCII) graphics are used to display the graphics (with output to the terminal). Implemented setting of the game speed.
 
-Проект представляет из себя визуализацию "The Game of Life". 
-Для отображения графики используется только символьная (ASCII) графика (с выводом в терминал). 
-Реализована настройка скорости игры.
+The field is a rectangle of 80 by 25 squares. The field is "closed to itself", i.e. lower right square has lower left square as neighbor to the right, and upper right square - as neighbor to the bottom.
 
-Поле — прямоугольник 80 на 25 клеток.
-Поле "замкнуто само на себя", т.е у нижнего правого квадратика соседом справа является нижний левый квадратик, а соседом снизу - верхний правый.
+The initial initialization of the state and speed of the "game" is set via stdin. In the src folder there are 5 files with initial state for quick start and initialization through input redirection.
 
-Начальная инициализация состояния и скорости "игры" задается через stdin. В папке src лежат 5 файлов с начальными состоянием для быстрого запуска и инициализации через перенаправление ввода.
+Example startup:
 
-Пример запуска:
 ```
 ./a.out 5.txt 3000
 ```
