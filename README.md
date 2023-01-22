@@ -5,7 +5,7 @@ The field is a rectangle of 80 by 25 squares. The field is "closed to itself", i
 
 The initial initialization of the state and speed of the "game" is set via stdin. In the src folder there are 5 files with initial state for quick start and initialization through input redirection.
 
-## Example startup:
+## Startup
 
 ```
 ./a.out 5000 < 4.txt 
