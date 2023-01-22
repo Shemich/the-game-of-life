@@ -8,5 +8,5 @@ The initial initialization of the state and speed of the "game" is set via stdin
 Example startup:
 
 ```
-./a.out 5.txt 3000
+./a.out 5000 < 4.txt 
 ```
